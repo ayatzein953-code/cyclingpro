@@ -1,0 +1,22 @@
+​🚴‍♂️ Cyclistic Bike-Share Case Study: Data Analytics Capstone & Machine Learning Integration
+​Overview: This project serves as the capstone for the Google Data Analytics Professional Certificate, applying the complete data life cycle—from cleaning, transformation, and visualization to strategic business insights. Extending beyond descriptive analytics, a machine learning model (Random Forest) was developed to predict user types based on temporal features.
+​📊 1. الاستنتاجات والرؤى التحليلية (Data Insights)
+​من خلال فحص الرسوم البيانية وتحليل البيانات التاريخية للرحلات، تم استخراج النتائج الاستراتيجية التالية:
+​📅 سلوك المستخدمين الأسبوعي (Rides by Week):
+​الأعضاء المشتركون (Member): تظهر رحلاتهم موزعة بشكل منتظم ومستقر طوال أيام العمل (من الاثنين إلى الجمعة)، مما يعكس استخدامهم اليومي للخدمة في التنقلات الروتينية كالذهاب للعمل أو الجامعة.
+​العملاء العاديون (Casual): يرتفع حجم الرحلات لديهم بشكل ملفت في عطلة نهاية الأسبوع (السبت والأحد)، حيث تصل الرحلات في يوم السبت لدى الفئة العادية إلى ذروتها (محققة أكثر من 800 ألف رحلة)، مما يدل على استخدام الخدمة لأغراض الترفيه والاستجمام والسياحة.
+​🌤️ الأداء الشهري والموسمي (Rides by Month):
+​تتأثر الخدمة بشكل مباشر بالظروف الجوية والمواسم؛ حيث تسجل الرحلات ذروتها في الأشهر الدافئة (مثل يونيو ويوليو وأغسطس، بأرقام تتجاوز 800 ألف للعملاء العاديين و700 ألف للأعضاء).
+​تنخفض الرحلات بشكل حاد في الأشهر الباردة (نوفمبر وديسمبر).
+​⏰ أوقات الذروة (Rush Hour):
+​تتركز ساعات الذروة لكلا الفئتين في أوقات متماثلة (غالباً حول الساعة 5 مساءً)، مما يبرز ارتباط استخدام الدراجات بأوقات الذروة المرورية اليومية.
+​💡 2. التوصيات المقترحة (Strategic Recommendations)
+​🎯 استهداف العملاء العاديين (Casual): بما أن استخدامهم يتركز في عطلات نهاية الأسبوع، يُقترح إطلاق عروض تخفيضات حصرية وعضويات مخفضة لنهاية الأسبوع لتشجيعهم على التحول إلى باقات الاشتراكات السنوية أو الشهرية (Membership).
+​❄️ الحملات الموسمية: وضع خطط تسويقية تحفيزية وبرامج ولاء خلال الأشهر الانتقالية التي يقل فيها الإقبال، لمواجهة الانخفاض الحاد في مواسم البرد.
+​🤖 3. النموذج التنبؤي ورؤى الذكاء الاصطناعي (Predictive Modeling)
+​الهدف: بناء نموذج ذكاء اصطناعي متطور لتوقع طبيعة العميل وتصنيفه بدقة (عادي Casual مقابل عضو Member).
+​الخوارزمية المستخدمة: تم استخدام خوارزمية Random Forest (الغابات العشوائية) نظراً لكفاءتها العالية مع البيانات المجدولة الكبيرة.
+​ميزات التدريب (Features): تم تغذية النموذج بمصفوفة ميزات زمنية أساسية تشمل الساعة (started_hour) والشهر (month) نظراً لتأثرهما المباشر بسلوكيات وأنماط الاستخدام اليومية والموسمية.
+​🌐 English Summary 
+​This project serves as the capstone for the Google Data Analytics Professional Certificate, applying the complete data life cycle from cleaning and visualization to strategic insights. Extending beyond descriptive analytics, a machine learning model using Random Forest was developed to predict user types (Casual vs. Member) based on temporal features (Hour and Month).
+​#DataAnalytics #GoogleDataAnalytics #MachineLearning #RandomForest #Tableau #RStats #DataScience #Cyclistic #Python
